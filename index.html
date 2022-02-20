@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="Adopt and Adore is a website to promote the adoption of pets that need a house to call their own.">
+    <meta name="keywords" content="adoption, for adoption, to adopt, the adoption, about adoption, adoption of, adopt is, adopt a, adoption is, of adoption, adopt, adopt here, dog, cat, pets pet, paws online, paws">
+    <!-- Favicon created here: https://favicon.io/ -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    
+    <title>Adopt & Adore-A Pet Adoption Center</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lily+Script+One&family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Reggae+One&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cantora+One&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/190e245c5e.js" crossorigin="anonymous"></script>
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="style/responsive.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="nav">
+          <a class="logo" href="">
+            <span class="fas fa-paw"></span>&nbsp Adopt and Adore
+          </a>
+
+          <!-- This code is hidden on larger screens. -->
+          <input type="checkbox" id="check-menu">
+
+          <div class="burger-menu">
+            <label for="check-menu">
+              <svg class="burger" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.375 14.875H44.625" stroke="#efef42" stroke-width="3.5" stroke-linecap="round"/>
+                <path d="M6.375 25.5H44.625" stroke="#efef42" stroke-width="3.5" stroke-linecap="round"/>
+                <path d="M6.37488 36.0625H28.0002" stroke="#efef42" stroke-width="3.5" stroke-linecap="round"/>
+              </svg>
+              <svg class="close" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M23 23L3 3" stroke="#f16d6d" stroke-width="5.5" stroke-linecap="round"/>
+                <path d="M3 23L23 3" stroke="#f16d6d" stroke-width="5.5" stroke-linecap="round"/>
+              </svg>
+            </label>
+          </div> <!-- .burger-menu -->
+  
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#home">Home</a>
+            </li>
+            <li>
+              <a class="nav__link nav__link--bgc-white" href="#adoption">Adoption</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#about">About</a>
+            </li>
+          </ul> <!-- .nav__links -->
+        </nav> <!-- .nav -->
+      </header>
+      <!--Style-->
+      <style>
+        #myInput {
+  margin-top: 10px;
+    background-position: 10px 12px; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    font-size: 20px; 
+    color: Navy;
+    /*font-family: Trebuchet MS;*/
+    font-family: Verdana;
+    padding: 12px 20px 12px 40px; 
+    border: 2px solid navy; 
+    margin-bottom: 12px; 
+  }
+  
+  #city {
+    background-color: black;
+    border-collapse: collapse; 
+    width: 100%; 
+    border: 2px solid navy; 
+    font-size: 20px; 
+    color: mintcream;
+   /*font-family: Trebuchet MS;*/
+   font-family: Verdana;
+  }
+  
+  #city th, #city td {
+    text-align:center;
+    padding: 12px; 
+  }
+  
+  #city tr {
+    border-bottom: 1px solid rgb(69, 140, 150);
+  }
+ 
+  #city tr.header{background-color: rgb(50, 44, 97);} 
+  #city tr:hover {
+    background-color: rgb(86, 79, 87);}
+      </style>
+
+      
+      <main>
+        <section class="homepage" id="home">
+          <div class="homepage__content">
+            <h1 class="title">
+              Change <strong>Lives</strong>
+            </h1>
+            <p class="homepage__text">
+              You're not going to change the world by adopting an animal, but you're going to change that animals world. 
+            </p>
+            <a class="btn" href="#adoption">To adopt</a>
+          </div> <!-- .homepage__content -->
+        </section> <!-- .homepage -->   
+
+
+<!--Search city-->
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search your city ...">
+
+        <table id="city" item-align="center">
+          <tr class="header">
+            <th style="width:40%;">City name</th>
+          </tr>
+          <tr>
+            <td>Delhi</td>
+          </tr>
+          <tr>
+            <td><a href="pune.html" target="_blank">Pune, Maharashta</a></td>
+          </tr>
+          <tr>
+            <td>Jaipur,Rajasthan</td>
+          </tr>
+          <tr>
+            <td>Bhopal, Madhya Pradesh</td>
+          </tr>
+          <tr>
+            <td>Udaipur, Rajasthan</td>
+          </tr>
+          <tr>
+            <td>Surat, Gujarat</td>
+          </tr>
+          <tr>
+            <td>Amritsar, Punjab</td>
+          </tr>
+          <tr>
+            <td>Mumbai, Maharashta</td>
+          </tr>
+
+          <tr>
+            <td>Kota, Rajasthan</td>
+          </tr>
+          <tr>
+            <td>Rajkot, Gujarat</td>
+          </tr>
+          <tr>
+            <td>Patiala, Punjab</td>
+          </tr>
+         
+          <tr>
+            <td>Pimpri, Maharashtra</td>
+          </tr>
+          <tr>
+            <td>Ahemdabad, Gujarat</td>
+          </tr>
+          <tr>
+            <td>Lucknow, Uttar Pradesh</td>
+          </tr>
+          <tr>
+            <td>Nagpur, Maharashta</td>
+          </tr>
+          <tr><td>Kolakta, West Bengal</td>
+          </tr>
+          <tr>
+            <td>Shillong, Meghalaya</td>
+          </tr>
+
+        <script>
+          function myFunction() {
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("city");
+            tr = table.getElementsByTagName("tr");
+          
+            // Loop through all table rows, and hide those who don't match the search query
+            for (i = 0; i < tr.length; i++) {
+              td = tr[i].getElementsByTagName("td")[0];
+              if (td) {
+                txtValue = td.textContent || td.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                  tr[i].style.display = "";
+                } else {
+                  tr[i].style.display = "none";
+                }
+              }
+            }
+          }
+          </script>
+
+</main>
+
+
+ <!--Chat bot-->
+ <link rel="stylesheet" href="./bot/chat.css">
+    <link rel="stylesheet" href="./bot/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     <!-- CHAT BAR BLOCK -->
+     <div class="chat-bar-collapsible">
+        <button id="chat-button" type="button" class="collapsible">&nbsp Chat with us!
+            <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+        </button>
+
+        <div class="content">
+            <div class="full-chat-block">
+                <!-- Message Container -->
+                <div class="outer-container">
+                    <div class="chat-container">
+                        <!-- Messages -->
+                        <div id="chatbox">
+                            <h5 id="chat-timestamp"></h5>
+                            <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+                        </div>
+
+                        <!-- User input box -->
+                        <div class="chat-bar-input-block">
+                            <div id="userInput">
+                                <input id="textInput" class="input-box" type="text" name="msg"
+                                    placeholder="Tap 'Enter' to send a message">
+                                <p></p>
+                            </div>
+
+                            <div class="chat-bar-icons">
+                                <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+                                    onclick="sendButton()"></i>
+                            </div>
+                        </div>
+
+                        <div id="chat-bar-bottom">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="./bot/responses.js"></script>
+<script src="./bot/chat.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
