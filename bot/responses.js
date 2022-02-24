@@ -4,8 +4,8 @@ function getBotResponse(input) {
         return "Dogs are good as well, but only if you have the time";
     } else if (input == "Best Animals to Keep as Pets") {
         return "A dog is loyal ,A cat is independent ,depends on you what you like most";
-    } else if (input == "scissors") {
-        return "rock";
+    } else if (input == "dog") {
+        return "Dog help alleviate stress and anxiety";
     }
 
     // Simple responses
